@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import Simples from './components/Simples'
+import Paridade from './components/Paridade'
 
 export default class App extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <Simples texto='Flexível!' />
+        <Paridade numero={32} />
       </View>
     )
   }
